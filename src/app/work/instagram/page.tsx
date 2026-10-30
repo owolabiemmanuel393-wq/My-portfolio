@@ -15,7 +15,6 @@ export default function InstagramCaseStudy() {
         {/* Header */}
         <CaseStudyHeader
           title="Organizing the Chaos: A UX Concept to Add Filters to Instagram’s Saved Post"
-          mobileTitle="Reimagining Airdrop: Designing a History Feature for Transparency and Control"
           nextHref="/work/daytrps"
           nextTitle="Next: Daytrps Case Study"
           scope="User Experience Design"
@@ -68,9 +67,9 @@ export default function InstagramCaseStudy() {
           <h2 className="text-[20px] md:text-[38px] font-medium text-black leading-tight">
             Instagram current design
           </h2>
-          <div className="relative w-full aspect-[350/198] md:aspect-[1272/834] rounded-2xl overflow-hidden shadow-sm">
+          <div className="relative w-full aspect-[350/198] md:aspect-[1272/721] rounded-2xl overflow-hidden shadow-sm">
             <Image
-              src="/assets/ig-screen-1.png"
+              src="/assets/ig-pure-1.png"
               alt="Instagram current design"
               fill
               className="object-contain"
@@ -83,9 +82,9 @@ export default function InstagramCaseStudy() {
           <h2 className="text-[20px] md:text-[38px] font-normal text-black leading-tight">
             I added a filter to solve the problem
           </h2>
-          <div className="relative w-full aspect-[350/196] md:aspect-[1272/834] rounded-2xl overflow-hidden shadow-sm">
+          <div className="relative w-full aspect-[350/196] md:aspect-[1272/721] rounded-2xl overflow-hidden shadow-sm">
             <Image
-              src="/assets/ig-screen-2.png"
+              src="/assets/ig-pure-2.png"
               alt="I added a filter to solve the problem"
               fill
               className="object-contain"
@@ -98,9 +97,9 @@ export default function InstagramCaseStudy() {
           <h2 className="text-[20px] md:text-[38px] font-normal text-black leading-tight">
             I added a scrolling animation to select the Month and Year
           </h2>
-          <div className="relative w-full aspect-[350/196] md:aspect-[1272/834] rounded-2xl overflow-hidden shadow-sm">
+          <div className="relative w-full aspect-[350/196] md:aspect-[1272/721] rounded-2xl overflow-hidden shadow-sm">
             <Image
-              src="/assets/ig-screen-3.png"
+              src="/assets/ig-pure-3.png"
               alt="I added a scrolling animation to select the Month and Year"
               fill
               className="object-contain"
@@ -113,9 +112,9 @@ export default function InstagramCaseStudy() {
           <h2 className="text-[20px] md:text-[38px] font-normal text-black leading-tight">
             The screen after selecting the Month and Year
           </h2>
-          <div className="relative w-full aspect-[350/196] md:aspect-[1272/834] rounded-2xl overflow-hidden shadow-sm">
+          <div className="relative w-full aspect-[350/196] md:aspect-[1272/721] rounded-2xl overflow-hidden shadow-sm">
             <Image
-              src="/assets/ig-screen-4-card.png"
+              src="/assets/ig-pure-4.png"
               alt="The screen after selecting the Month and Year"
               fill
               className="object-contain"
@@ -128,9 +127,9 @@ export default function InstagramCaseStudy() {
           <h2 className="text-[20px] md:text-[38px] font-normal text-black leading-tight">
             The screen after scrolling down to the posts saved since the beginning of the Month
           </h2>
-          <div className="relative w-full aspect-[350/196] md:aspect-[1272/922] rounded-2xl overflow-hidden shadow-sm">
+          <div className="relative w-full aspect-[350/196] md:aspect-[1272/721] rounded-2xl overflow-hidden shadow-sm">
             <Image
-              src="/assets/ig-screen-5-card.png"
+              src="/assets/ig-pure-5.png"
               alt="The screen after scrolling down to the posts saved since the beginning of the Month"
               fill
               className="object-contain"

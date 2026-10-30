@@ -65,7 +65,7 @@ export default function AirdropCaseStudy() {
         {/* Screen 1: Toggle Button Board (Figma 5167:4414) */}
         <div className="relative w-full aspect-[350/198] md:aspect-[1272/721] rounded-2xl overflow-hidden shadow-sm">
           <Image
-            src="/assets/airdrop-card-1.png"
+            src="/assets/airdrop-pure-1.png"
             alt="I added a toggle button to the Airdrop screen"
             fill
             className="object-contain"
@@ -77,9 +77,9 @@ export default function AirdropCaseStudy() {
           <h2 className="text-[20px] md:text-[38px] font-normal text-black leading-tight">
             Airdrop history is ON
           </h2>
-          <div className="relative w-full aspect-[350/198] md:aspect-[1272/834] rounded-2xl overflow-hidden shadow-sm">
+          <div className="relative w-full aspect-[350/198] md:aspect-[1272/721] rounded-2xl overflow-hidden shadow-sm">
             <Image
-              src="/assets/airdrop-card-2.png"
+              src="/assets/airdrop-pure-2.png"
               alt="Airdrop history is ON"
               fill
               className="object-contain"
@@ -92,9 +92,9 @@ export default function AirdropCaseStudy() {
           <h2 className="text-[20px] md:text-[38px] font-normal text-black leading-tight">
             View Airdrop history screen
           </h2>
-          <div className="relative w-full aspect-[350/198] md:aspect-[1272/834] rounded-2xl overflow-hidden shadow-sm">
+          <div className="relative w-full aspect-[350/198] md:aspect-[1272/721] rounded-2xl overflow-hidden shadow-sm">
             <Image
-              src="/assets/airdrop-card-3.png"
+              src="/assets/airdrop-pure-3.png"
               alt="View Airdrop history screen"
               fill
               className="object-contain"
@@ -109,7 +109,7 @@ export default function AirdropCaseStudy() {
           </h2>
           <div className="relative w-full aspect-[350/198] md:aspect-[1272/721] rounded-2xl overflow-hidden shadow-sm">
             <Image
-              src="/assets/airdrop-card-4.png"
+              src="/assets/airdrop-pure-4.png"
               alt="The sent history screen"
               fill
               className="object-contain"
@@ -122,9 +122,9 @@ export default function AirdropCaseStudy() {
           <h2 className="text-[20px] md:text-[38px] font-normal text-black leading-tight">
             Clearing the history files
           </h2>
-          <div className="relative w-full aspect-[350/198] md:aspect-[1272/830] rounded-2xl overflow-hidden shadow-sm">
+          <div className="relative w-full aspect-[350/198] md:aspect-[1272/721] rounded-2xl overflow-hidden shadow-sm">
             <Image
-              src="/assets/airdrop-card-5.png"
+              src="/assets/airdrop-pure-5.png"
               alt="Clearing the history files"
               fill
               className="object-contain"
