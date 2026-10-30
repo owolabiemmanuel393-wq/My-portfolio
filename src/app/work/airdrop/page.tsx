@@ -12,27 +12,28 @@ export default function AirdropCaseStudy() {
 
       <div className="w-full max-w-[1512px] mx-auto px-5 sm:px-12 md:px-20 lg:px-28 flex-1 flex flex-col gap-8 md:gap-16">
         {/* Header */}
+        {/* Header */}
         <CaseStudyHeader
           title="Reimagining Airdrop: Designing a History Feature for Transparency and Control"
           nextHref="/work/cv-ai"
           nextTitle="Next: CV AI Case Study"
           scope="UX Design"
-          type="IOS Feature Concept"
+          type="IOS Apple feature"
           role="Product designer"
-          year="2024"
+          year="2026"
           tools="Figma, Figjam, Adobe photoshop"
+          heroBanner={
+            <div className="relative w-full aspect-[350/175] md:aspect-[1272/357] rounded-2xl overflow-hidden bg-gradient-to-br from-[#E2E8F0] to-[#CBD5E1] border border-black/5">
+              <Image
+                src="/assets/airdrop-hero-banner.png"
+                alt="Reimagining Airdrop Hero Banner"
+                fill
+                className="object-contain"
+                priority
+              />
+            </div>
+          }
         />
-
-        {/* Hero Visual Banner (Figma 5167:4458) */}
-        <div className="relative w-full aspect-[350/175] md:aspect-[1272/357] rounded-2xl overflow-hidden bg-gradient-to-br from-[#E2E8F0] to-[#CBD5E1] border border-black/5">
-          <Image
-            src="/assets/airdrop-hero-banner.png"
-            alt="Reimagining Airdrop Hero Banner"
-            fill
-            className="object-contain"
-            priority
-          />
-        </div>
 
         {/* Project Overview (Figma 5165:4271) */}
         <section className="flex flex-col gap-3 md:gap-4 max-w-[1240px]">
@@ -101,15 +102,15 @@ export default function AirdropCaseStudy() {
           </div>
         </section>
 
-        {/* Screen 4: Recent history screen (Figma 5167:4420) */}
+        {/* Screen 4: The sent history screen (Figma 5165:4296) */}
         <section className="flex flex-col gap-3 md:gap-4">
           <h2 className="text-[20px] md:text-[38px] font-normal text-black leading-tight">
-            Recent history screen
+            The sent history screen
           </h2>
           <div className="relative w-full aspect-[350/198] md:aspect-[1272/721] rounded-2xl overflow-hidden shadow-sm">
             <Image
               src="/assets/airdrop-card-4.png"
-              alt="Recent history screen"
+              alt="The sent history screen"
               fill
               className="object-contain"
             />

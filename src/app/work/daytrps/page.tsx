@@ -20,25 +20,26 @@ export default function DaytrpsCaseStudy() {
         {/* Header */}
         <CaseStudyHeader
           title="Redesigning the Daytrps Website for a More Visually Engaging User Experience"
+          mobileTitle="Reimagining Airdrop: Designing a History Feature for Transparency and Control"
           nextHref="/work/airdrop"
           nextTitle="Next: Airdrop Case Study"
           scope="MVP"
           type="B2C, Travel Platform"
           role="Product designer"
-          year="2024"
+          year="2026"
           tools="Figma, Figjam, Adobe photoshop"
+          heroBanner={
+            <div className="relative w-full aspect-[350/175] md:aspect-[1272/357] rounded-2xl overflow-hidden bg-gradient-to-br from-[#B6C8E6] to-[#D5E2F5] border border-black/5">
+              <Image
+                src="/assets/daytrps-hero-banner.png"
+                alt="Daytrps Hero Banner"
+                fill
+                className="object-contain"
+                priority
+              />
+            </div>
+          }
         />
-
-        {/* Hero Visual Banner (Figma 5167:4453) */}
-        <div className="relative w-full aspect-[350/175] md:aspect-[1272/357] rounded-2xl overflow-hidden bg-gradient-to-br from-[#B6C8E6] to-[#D5E2F5] border border-black/5">
-          <Image
-            src="/assets/daytrps-hero-banner.png"
-            alt="Daytrps Hero Banner"
-            fill
-            className="object-contain"
-            priority
-          />
-        </div>
 
         {/* Project Overview (Figma 5165:2596) */}
         <section className="flex flex-col gap-3 md:gap-4 max-w-[1240px]">
@@ -82,10 +83,10 @@ export default function DaytrpsCaseStudy() {
           </ul>
         </section>
 
-        {/* The challenge at the Hero Section (Figma 5165:2609) */}
+        {/* The Redesign of the Hero section (Figma 5165:2609) */}
         <section className="flex flex-col gap-3 md:gap-4 max-w-[1240px]">
           <h2 className="text-[20px] md:text-[38px] font-normal text-black leading-tight">
-            The challenge at the Hero section of the Landing page
+            The Redesign of the Hero section of the Landing page
           </h2>
           <p className="text-[16px] md:text-[19px] font-normal text-black leading-[36px] md:leading-relaxed">
             The redesigned hero section leverages the Aesthetic-Usability Effect — the principle that users perceive aesthetically pleasing interfaces as more usable, even when minor usability issues exist. By introducing visual harmony, clean layout, and emotionally engaging elements, this section builds instant trust, reduces user hesitation, and encourages exploration from the very first interaction.
@@ -105,7 +106,7 @@ export default function DaytrpsCaseStudy() {
         {/* Mobile Screens Showcase (Figma 5167:4371) */}
         <section className="flex flex-col gap-3 md:gap-4">
           <h2 className="text-[20px] md:text-[38px] font-normal text-black leading-tight">
-            Full fidelity design (Mobile)
+            High fidelity design (Mobile)
           </h2>
           <div className="relative w-full aspect-[350/343] md:aspect-[1280/1246] rounded-2xl overflow-hidden shadow-sm">
             <Image

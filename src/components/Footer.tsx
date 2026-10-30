@@ -115,7 +115,7 @@ export default function Footer() {
         {/* Bottom: Copyright (Figma 5152:173) */}
         <div className="pt-8 sm:pt-12 md:pt-16 mt-6">
           <p className="text-[16px] md:text-[18px] font-medium text-[#707070]">
-            ©️ 2024 Damilola Owolabi. All Rights Reserved.
+            ©️ 2026 Damilola Owolabi. All Rights Reserved.
           </p>
         </div>
       </div>

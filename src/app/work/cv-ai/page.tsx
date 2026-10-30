@@ -7,7 +7,7 @@ import { ArrowRight } from "lucide-react";
 
 export default function CvAiCaseStudy() {
   const goals = [
-    "Make CVs creation easier by giving users a simple, guided process instead of starting with a blank page.",
+    "Make CV creation easier by giving users a simple, guided process instead of starting with a blank page.",
     "Use AI to improve CV content by helping users write stronger descriptions of their experience and skills.",
     "Help users tailor their CVs to specific jobs by suggesting relevant skills, keywords, and improvements based on the job role.",
     "Keep users in control by allowing them to review, edit, accept, or reject AI-generated content.",
@@ -26,20 +26,20 @@ export default function CvAiCaseStudy() {
           scope="User Interface Design"
           type="B2C, Travel Platform"
           role="UI/UX designer"
-          year="2024"
+          year="2026"
           tools="Figma, Figjam, Adobe photoshop"
+          heroBanner={
+            <div className="relative w-full aspect-[350/177] md:aspect-[1275/357] rounded-2xl overflow-hidden border border-[#D0D0D0] bg-[#F2F2F2]">
+              <Image
+                src="/assets/cv-hero-banner.png"
+                alt="CV AI Hero Banner"
+                fill
+                className="object-cover"
+                priority
+              />
+            </div>
+          }
         />
-
-        {/* Hero Banner */}
-        <div className="relative w-full aspect-[350/177] md:aspect-[1275/357] rounded-2xl overflow-hidden">
-          <Image
-            src="/assets/cv-hero-banner.png"
-            alt="CV AI Hero Banner"
-            fill
-            className="object-cover"
-            priority
-          />
-        </div>
 
         {/* The Problem (Figma 5153:961) */}
         <section className="flex flex-col gap-3 md:gap-4 max-w-[1240px]">
