@@ -21,16 +21,14 @@ export default function ProjectCard({
       href={href}
       className="group block bg-white rounded-[24px] p-2.5 pb-5 sm:pb-6 shadow-[0_2px_12px_rgba(0,0,0,0.04)] hover:shadow-[0_8px_30px_rgba(0,0,0,0.08)] transition-all duration-300 border border-black/[0.04]"
     >
-      {/* Image Preview Container (330x177 on mobile, 340 on desktop) */}
-      <div
-        className="w-full h-[177px] sm:h-[280px] md:h-[340px] rounded-[16px] overflow-hidden relative flex items-center justify-center transition-transform duration-300 group-hover:scale-[0.99]"
-        style={{ backgroundColor: imageBgColor || "#F0F0F0" }}
-      >
+      {/* Image Preview Container (330x177 on mobile, 604x341 on desktop) */}
+      <div className="w-full aspect-[330/177] md:aspect-[604/341] rounded-[16px] overflow-hidden relative flex items-center justify-center transition-transform duration-300 group-hover:scale-[0.99]">
         <Image
           src={imageSrc}
           alt={title}
           fill
-          className="object-contain p-2 sm:p-4 transition-transform duration-500 group-hover:scale-105"
+          sizes="(max-width: 768px) 100vw, 50vw"
+          className="object-cover transition-transform duration-500 group-hover:scale-105"
         />
       </div>
 

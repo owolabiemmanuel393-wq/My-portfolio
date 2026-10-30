@@ -73,12 +73,12 @@ export default function PlaygroundPage() {
             </div>
           </div>
 
-          {/* Card 3: Podcasts */}
+          {/* Card 3: Tech conversations */}
           <div className="bg-white rounded-[24px] overflow-hidden shadow-[0_2px_12px_rgba(0,0,0,0.04)] border border-black/[0.04]">
             <div className="relative w-full aspect-[670/517]">
               <Image
-                src="/assets/playground-mobile-card-3.png"
-                alt="Podcasts"
+                src="/assets/playground-tech-conversations-mobile.png"
+                alt="Tech conversations"
                 fill
                 className="object-contain"
               />
@@ -123,12 +123,12 @@ export default function PlaygroundPage() {
             </div>
           </div>
 
-          {/* Bottom Row: Podcasts Card Centered */}
+          {/* Bottom Row: Tech conversations Card Centered */}
           <div className="flex justify-center mt-12 md:mt-20">
             <div className="w-[340px] sm:w-[390px] md:w-[435px] aspect-square relative lg:rotate-[3.5deg] hover:rotate-0 transition-transform duration-300 drop-shadow-[0_8px_30px_rgba(0,0,0,0.08)]">
               <Image
-                src="/assets/playground-podcast.png"
-                alt="Podcasts"
+                src="/assets/playground-tech-conversations-desktop.png"
+                alt="Tech conversations"
                 fill
                 className="object-contain"
               />

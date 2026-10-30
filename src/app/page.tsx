@@ -11,32 +11,28 @@ export default function WorkPage() {
       id: "daytrps",
       title: "Redesigning the Daytrps Website for a More Visually Engaging User experience",
       category: "2026 - Product Design",
-      imageSrc: "/assets/card-daytrps.png",
-      imageBgColor: "#B6C8E6",
+      imageSrc: "/assets/card-daytrps-pure.png",
       href: "/work/daytrps",
     },
     {
       id: "instagram",
       title: "Organizing the Chaos: A UX Concept to Add Filters to Instagram’s Saved Post",
       category: "2026 - Product Design",
-      imageSrc: "/assets/card-instagram.png",
-      imageBgColor: "#BFB0E8",
+      imageSrc: "/assets/card-instagram-pure.png",
       href: "/work/instagram",
     },
     {
       id: "cv-ai",
       title: "Helping job seekers create better CVs with AI",
       category: "2026 - Product Design",
-      imageSrc: "/assets/card-cv.png",
-      imageBgColor: "#E8ECEF",
+      imageSrc: "/assets/card-cv-pure.png",
       href: "/work/cv-ai",
     },
     {
       id: "airdrop",
       title: "Reimagining Airdrop: Designing a History Feature for Transparency and Control",
       category: "2026 - Product Design",
-      imageSrc: "/assets/card-airdrop.png",
-      imageBgColor: "#A7C0E4",
+      imageSrc: "/assets/card-airdrop-pure.png",
       href: "/work/airdrop",
     },
   ];
@@ -98,7 +94,6 @@ export default function WorkPage() {
                 title={project.title}
                 category={project.category}
                 imageSrc={project.imageSrc}
-                imageBgColor={project.imageBgColor}
                 href={project.href}
               />
             ))}
