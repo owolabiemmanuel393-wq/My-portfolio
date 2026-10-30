@@ -19,7 +19,7 @@ export default function InstagramCaseStudy() {
           scope="User Experience Design"
           type="Social media"
           role="Product designer"
-          year="2026"
+          year="2024"
           tools="Figma, Figjam, Adobe photoshop"
         />
 
@@ -47,7 +47,7 @@ export default function InstagramCaseStudy() {
         {/* How Might We (Figma 5165:2426) */}
         <section className="flex flex-col gap-3 md:gap-4 max-w-[1240px]">
           <h2 className="text-[20px] md:text-[42px] font-medium md:font-normal text-black leading-[26px] md:leading-tight">
-            “How might we help simplify the process of finding specify saved post on Instagram?”
+            “How might we help simplify the process of finding specific saved post on Instagram?”
           </h2>
         </section>
 
@@ -76,30 +76,30 @@ export default function InstagramCaseStudy() {
           </div>
         </section>
 
-        {/* Screen 2 Card: I added a filter to solve the problem (Figma 5165:4316) */}
+        {/* Screen 2 Card: Feature a filter to solve the problem (Figma 5165:4316) */}
         <section className="flex flex-col gap-3 md:gap-4">
           <h2 className="text-[20px] md:text-[38px] font-normal text-black leading-tight">
-            I added a filter to solve the problem
+            Feature a filter to solve the problem
           </h2>
           <div className="relative w-full aspect-[350/196] md:aspect-[1272/834] rounded-2xl overflow-hidden shadow-sm">
             <Image
               src="/assets/ig-screen-2.png"
-              alt="I added a filter to solve the problem"
+              alt="Feature a filter to solve the problem"
               fill
               className="object-contain"
             />
           </div>
         </section>
 
-        {/* Screen 3 Card: I added a scrolling animation to select the Month and Year (Figma 5165:4315) */}
+        {/* Screen 3 Card: Feature a scrolling animation to select the Month and Year (Figma 5165:4315) */}
         <section className="flex flex-col gap-3 md:gap-4">
           <h2 className="text-[20px] md:text-[38px] font-normal text-black leading-tight">
-            I added a scrolling animation to select the Month and Year
+            Feature a scrolling animation to select the Month and Year
           </h2>
           <div className="relative w-full aspect-[350/196] md:aspect-[1272/834] rounded-2xl overflow-hidden shadow-sm">
             <Image
               src="/assets/ig-screen-3.png"
-              alt="I added a scrolling animation to select the Month and Year"
+              alt="Feature a scrolling animation to select the Month and Year"
               fill
               className="object-contain"
             />
@@ -156,8 +156,8 @@ export default function InstagramCaseStudy() {
           </p>
         </section>
 
-        {/* Next Project Button */}
-        <div className="flex justify-center pt-4 md:pt-6 pb-8">
+        {/* Next Project Button (Desktop only) */}
+        <div className="hidden md:flex justify-center pt-4 md:pt-6 pb-8">
           <Link
             href="/work/daytrps"
             className="inline-flex items-center gap-3 px-8 py-3.5 rounded-full bg-[#DCB3B3] text-black hover:opacity-90 transition-all text-[16px] font-medium shadow-sm"

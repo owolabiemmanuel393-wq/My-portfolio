@@ -17,9 +17,9 @@ export default function AirdropCaseStudy() {
           nextHref="/work/cv-ai"
           nextTitle="Next: CV AI Case Study"
           scope="UX Design"
-          type="IOS Apple feature"
+          type="IOS Feature Concept"
           role="Product designer"
-          year="2026"
+          year="2024"
           tools="Figma, Figjam, Adobe photoshop"
         />
 
@@ -40,7 +40,7 @@ export default function AirdropCaseStudy() {
             Project Overview
           </h2>
           <p className="text-[16px] md:text-[19px] font-normal text-black leading-[36px] md:leading-relaxed">
-            Airdrop, a widely used file sharing feature on iPhones, lacks a history function, leaving users without a record of their shared files, the absence poses challenges, particularly for frequent users, who may need to track their transfers for reference and verification, the lack of control over Airdrop visibility and the inability to mane past transfers can raise privacy concerns.
+            Airdrop, a widely used file sharing feature on iPhones, lacks a history function, leaving users without a record of their shared files, the absence poses challenges, particularly for frequent users, who may need to track their transfers for reference and verification, the lack of control over Airdrop visibility and the inability to manage past transfers can raise privacy concerns.
           </p>
         </section>
 
@@ -101,15 +101,15 @@ export default function AirdropCaseStudy() {
           </div>
         </section>
 
-        {/* Screen 4: The sent history screen (Figma 5167:4420) */}
+        {/* Screen 4: Recent history screen (Figma 5167:4420) */}
         <section className="flex flex-col gap-3 md:gap-4">
           <h2 className="text-[20px] md:text-[38px] font-normal text-black leading-tight">
-            The sent history screen
+            Recent history screen
           </h2>
           <div className="relative w-full aspect-[350/198] md:aspect-[1272/721] rounded-2xl overflow-hidden shadow-sm">
             <Image
               src="/assets/airdrop-card-4.png"
-              alt="The sent history screen"
+              alt="Recent history screen"
               fill
               className="object-contain"
             />
@@ -151,8 +151,8 @@ export default function AirdropCaseStudy() {
           </p>
         </section>
 
-        {/* Next Project Button */}
-        <div className="flex justify-center pt-4 md:pt-6 pb-8">
+        {/* Next Project Button (Desktop only) */}
+        <div className="hidden md:flex justify-center pt-4 md:pt-6 pb-8">
           <Link
             href="/work/cv-ai"
             className="inline-flex items-center gap-3 px-8 py-3.5 rounded-full bg-black text-white hover:bg-black/80 transition-all text-[16px] font-medium shadow-md"

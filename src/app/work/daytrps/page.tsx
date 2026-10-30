@@ -9,7 +9,7 @@ export default function DaytrpsCaseStudy() {
   const goals = [
     "Redesign the homepage and core screens to improve aesthetics and usability",
     "Developed a Style guide to ensure consistency in design elements",
-    "Showcase the core features clearly and effectively.",
+    "Showcase the core features.",
   ];
 
   return (
@@ -25,7 +25,7 @@ export default function DaytrpsCaseStudy() {
           scope="MVP"
           type="B2C, Travel Platform"
           role="Product designer"
-          year="2026"
+          year="2024"
           tools="Figma, Figjam, Adobe photoshop"
         />
 
@@ -82,10 +82,10 @@ export default function DaytrpsCaseStudy() {
           </ul>
         </section>
 
-        {/* The Redesign of the Hero Section (Figma 5165:2609) */}
+        {/* The challenge at the Hero Section (Figma 5165:2609) */}
         <section className="flex flex-col gap-3 md:gap-4 max-w-[1240px]">
           <h2 className="text-[20px] md:text-[38px] font-normal text-black leading-tight">
-            The Redesign of the Hero section of the Landing page
+            The challenge at the Hero section of the Landing page
           </h2>
           <p className="text-[16px] md:text-[19px] font-normal text-black leading-[36px] md:leading-relaxed">
             The redesigned hero section leverages the Aesthetic-Usability Effect — the principle that users perceive aesthetically pleasing interfaces as more usable, even when minor usability issues exist. By introducing visual harmony, clean layout, and emotionally engaging elements, this section builds instant trust, reduces user hesitation, and encourages exploration from the very first interaction.
@@ -105,7 +105,7 @@ export default function DaytrpsCaseStudy() {
         {/* Mobile Screens Showcase (Figma 5167:4371) */}
         <section className="flex flex-col gap-3 md:gap-4">
           <h2 className="text-[20px] md:text-[38px] font-normal text-black leading-tight">
-            High fidelity design (Mobile)
+            Full fidelity design (Mobile)
           </h2>
           <div className="relative w-full aspect-[350/343] md:aspect-[1280/1246] rounded-2xl overflow-hidden shadow-sm">
             <Image
@@ -137,8 +137,18 @@ export default function DaytrpsCaseStudy() {
           </p>
         </section>
 
-        {/* Next Project Button */}
-        <div className="flex justify-center pt-4 md:pt-6 pb-8">
+        {/* Thank You Section (Figma 5165:3397 / Image 4) */}
+        <section className="flex flex-col gap-3 md:gap-4 max-w-[1240px]">
+          <h2 className="text-[20px] md:text-[38px] font-normal text-black leading-tight">
+            Thank you for exploring this design
+          </h2>
+          <p className="text-[16px] md:text-[19px] font-normal text-black leading-[36px] md:leading-relaxed">
+            I&apos;m always excited to solve real problems through intentional, user-centered design. If you&apos;re looking for a Product designer who can understand your goals and turn them into impactful solutions, I&apos;m ready to collaborate.
+          </p>
+        </section>
+
+        {/* Next Project Button (Desktop only) */}
+        <div className="hidden md:flex justify-center pt-4 md:pt-6 pb-8">
           <Link
             href="/work/airdrop"
             className="inline-flex items-center gap-3 px-8 py-3.5 rounded-full bg-black text-white hover:bg-black/80 transition-all text-[16px] font-medium shadow-md"

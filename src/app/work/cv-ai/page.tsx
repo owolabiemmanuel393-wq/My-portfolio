@@ -7,12 +7,12 @@ import { ArrowRight } from "lucide-react";
 
 export default function CvAiCaseStudy() {
   const goals = [
-    "Make CV creation easier by giving users a simple, guided process instead of starting with a blank page.",
+    "Make CVs creation easier by giving users a simple, guided process instead of starting with a blank page.",
     "Use AI to improve CV content by helping users write stronger descriptions of their experience and skills.",
     "Help users tailor their CVs to specific jobs by suggesting relevant skills, keywords, and improvements based on the job role.",
     "Keep users in control by allowing them to review, edit, accept, or reject AI-generated content.",
     "Create a simple and professional experience that makes it easy for users to create, review, and export their CV.",
-    "Explore how AI can improve an everyday product experience without making the product feel complicated or overly automated.ser interface of the project",
+    "Explore how AI can improve an everyday product experience without making the product feel complicated or overly automated.",
   ];
 
   return (
@@ -26,7 +26,7 @@ export default function CvAiCaseStudy() {
           scope="User Interface Design"
           type="B2C, Travel Platform"
           role="UI/UX designer"
-          year="2026"
+          year="2024"
           tools="Figma, Figjam, Adobe photoshop"
         />
 
@@ -168,8 +168,8 @@ export default function CvAiCaseStudy() {
           </p>
         </section>
 
-        {/* Next Project Button */}
-        <div className="flex justify-center pt-4 md:pt-6 pb-8">
+        {/* Next Project Button (Desktop only) */}
+        <div className="hidden md:flex justify-center pt-4 md:pt-6 pb-8">
           <Link
             href="/work/instagram"
             className="inline-flex items-center gap-3 px-8 py-3.5 rounded-full bg-black text-white hover:bg-black/80 transition-all text-[16px] font-medium shadow-md"
