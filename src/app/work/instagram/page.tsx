@@ -157,8 +157,8 @@ export default function InstagramCaseStudy() {
           </p>
         </section>
 
-        {/* Next Project Button (Desktop only) */}
-        <div className="hidden md:flex justify-center pt-4 md:pt-6 pb-8">
+        {/* Next Project Button */}
+        <div className="flex justify-center pt-6 pb-12">
           <Link
             href="/work/daytrps"
             className="inline-flex items-center gap-3 px-8 py-3.5 rounded-full bg-[#DCB3B3] text-black hover:opacity-90 transition-all text-[16px] font-medium shadow-sm"

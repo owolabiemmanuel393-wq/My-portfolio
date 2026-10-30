@@ -168,8 +168,8 @@ export default function CvAiCaseStudy() {
           </p>
         </section>
 
-        {/* Next Project Button (Desktop only) */}
-        <div className="hidden md:flex justify-center pt-4 md:pt-6 pb-8">
+        {/* Next Project Button */}
+        <div className="flex justify-center pt-6 pb-12">
           <Link
             href="/work/instagram"
             className="inline-flex items-center gap-3 px-8 py-3.5 rounded-full bg-black text-white hover:bg-black/80 transition-all text-[16px] font-medium shadow-md"

@@ -2,6 +2,8 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import CaseStudyHeader from "@/components/CaseStudyHeader";
 import Image from "next/image";
+import Link from "next/link";
+import { ArrowRight } from "lucide-react";
 
 export default function CampipalCaseStudy() {
   return (
@@ -39,7 +41,7 @@ export default function CampipalCaseStudy() {
           </p>
         </section>
 
-        <section className="flex flex-col gap-6 max-w-[1200px] pb-8">
+        <section className="flex flex-col gap-6 max-w-[1200px] pb-4">
           <h2 className="text-[32px] sm:text-[40px] md:text-[45px] font-medium text-black">
             Key Highlights
           </h2>
@@ -50,6 +52,17 @@ export default function CampipalCaseStudy() {
             <li>Comprehensive design tokens supporting smooth dark/light mode thematic shifts</li>
           </ul>
         </section>
+
+        {/* Next Project Button */}
+        <div className="flex justify-center pt-6 pb-12">
+          <Link
+            href="/work/airdrop"
+            className="inline-flex items-center gap-3 px-8 py-3.5 rounded-full bg-black text-white hover:bg-black/80 transition-all text-[16px] font-medium shadow-md"
+          >
+            <span>Next project</span>
+            <ArrowRight className="w-4 h-4" />
+          </Link>
+        </div>
       </div>
 
       <Footer />
